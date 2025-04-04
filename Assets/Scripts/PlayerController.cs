@@ -78,7 +78,7 @@ public class ThirdPersonController : MonoBehaviour
             Holograms[3].SetActive(true);
         }
 
-        if(Input.GetKeyDown(KeyCode.KeypadEnter) && CanChangeDirection)
+        if(Input.GetKeyDown(KeyCode.V) && CanChangeDirection)
         {
             DisableAllHolograms();
             GravityController.instance.ChangeGravityDirection();
